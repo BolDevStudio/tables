@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import UserTable from './components/UserTable'; // Importujesz komponent
+import UserTable from './components/UserTable';
 
 const App: React.FC = () => {
   return (
       <div className="App">
         <h1>User Management</h1>
-        <UserTable /> {/* Używasz komponentu UserTable */}
+        <UserTable />
       </div>
   );
 }
