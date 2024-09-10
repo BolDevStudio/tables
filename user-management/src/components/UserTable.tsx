@@ -84,7 +84,7 @@ const UserTable: React.FC = () => {
                     </thead>
                     <tbody>
                     {filteredUsers.map(user => (
-                        <tr key={user.id} className="hover:bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 transform hover:scale-105">
+                        <tr key={user.id} className="hover:bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300 transform">
                             <td className="py-3 px-2 sm:px-6 border-b border-gray-700 text-sm sm:text-base">{user.name}</td>
                             <td className="py-3 px-2 sm:px-6 border-b border-gray-700 text-sm sm:text-base">{user.username}</td>
                             <td className="py-3 px-2 sm:px-6 border-b border-gray-700 text-sm sm:text-base">{user.email}</td>
