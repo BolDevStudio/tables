@@ -39,7 +39,6 @@ const UserTable: React.FC = () => {
                 User Management
             </h1>
 
-            {/* Search Inputs */}
             <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-8">
                 <input
                     type="text"
@@ -71,7 +70,6 @@ const UserTable: React.FC = () => {
                 />
             </div>
 
-            {/* Table for larger screens */}
             <div className="hidden md:block overflow-x-auto">
                 <table className="min-w-full table-auto bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white shadow-lg rounded-lg">
                     <thead>
@@ -95,7 +93,6 @@ const UserTable: React.FC = () => {
                 </table>
             </div>
 
-            {/* Cards for mobile */}
             <div className="md:hidden">
                 {filteredUsers.map(user => (
                     <div key={user.id} className="mb-4 p-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white shadow-lg rounded-lg">
